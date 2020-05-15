@@ -1,0 +1,15 @@
+yarn add typescript -D
+
+yarn add @types/express -D //adicionando a tipagem do express
+
+tsc src/index.ts  //para transpilar o codigo de typescript para js
+
+yarn tsc --init  //iniciar o arquivo de configuracao do typescript
+
+yarn tsc //para ele ler e transpilar
+
+outdir no tsconfig para alterar a pasta onde vai estar os arquivos transpilados
+
+yarn add ts-node-dev -D //para transpilar automaticamente e temos q configurar o script no packpage.json
+
+yarn add @types/cors //adicionar a tipagem do cros
